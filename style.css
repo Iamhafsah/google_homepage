@@ -1,0 +1,104 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#navi ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#navi ul li{
+    margin: 5px;
+}
+#navi ul li a{
+    color: black;
+    font-size: 13px;
+}
+#logo, #form, #languages{
+    text-align: center;
+}
+#logo{
+    margin-top: 90px;
+}
+#search{
+    width: 40%;
+    border: 1px solid rgb(214, 212, 212) ;
+    border-radius: 50px;
+    height: 39px;
+    margin: 10px;
+}
+#google_search{
+    background-color: rgb(238, 234, 234);
+    width: 150px;
+    height: 40px;
+    border: 0px grey solid;
+    border-radius: 3px;
+    margin: 10px;
+    color: grey;
+}
+#lucky{
+    background-color: rgb(238, 234, 234);
+    width: 150px;
+    height: 40px;
+    border: 0px grey solid;
+    border-radius: 3px;
+    margin: 10px;
+    color: grey;
+}
+#languages{
+    display: flex;
+    justify-content: center;
+}
+#languages li{
+    font-size: 13px;
+    margin: 7px;
+}
+footer{
+    background-color: rgb(238, 234, 234);
+    position: relative;
+    top: 145px
+}
+ #Nigeria{
+    background-color:rgb(238, 234, 234);
+    border-top: 0.5px solid rgb(221, 218, 218);
+}
+#Nigeria p{
+    margin-left: 45px;
+    height: 15px;
+    color: grey;
+    font-size: 13px;
+}
+ #Terms{
+    background-color:rgb(238, 234, 234);
+    border-top: 0.5px solid rgb(221, 218, 218);
+}
+#Terms{
+    display: flex;
+    justify-content: space-between;
+}
+#Terms ul{
+    display: flex;
+}
+#Terms ul li{
+    margin: 5px;
+    font-size: 13px;
+}
+#Terms ul li a{
+    color: grey;
+}
+a:hover{
+    text-decoration: underline;
+}
+#google_search:hover{
+    border: 1px solid grey;
+}
+#lucky:hover{
+    border: 1px solid grey;
+}
